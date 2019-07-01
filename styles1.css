@@ -1,0 +1,227 @@
+* {
+	box-sizing: border-box;
+	margin: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Header*/
+
+nav {
+	background-color: #75e2e6;
+	border-bottom: 3px solid #048eaa;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	color: #000000;
+	padding: 10px;
+}
+
+.logo {
+	height: 60px;
+	width: 60px;
+}
+
+.hamburger {
+	color: #000000;
+	font-size: 50px;
+	position: absolute;
+	right:20px;
+	top: 15px;
+	display: none;
+}
+
+/*Banner*/
+
+h1 {
+	color: #ffffff;
+	display: block;
+	font-size: 300%;
+	font-weight: 400;
+	padding: 16px 0;
+	width: 60%;
+}
+
+ul {
+	float: right;
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	padding: 15px 12px;
+}
+
+nav a:link {
+	color: #000000;
+	font-size: 110%;
+	text-decoration: none;
+}
+
+.dog-banner {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),
+	url(images/park.jpg) no-repeat;
+	background-position: center bottom;
+	background-size: cover;
+	height: 650px;
+	padding: 25px 0px;
+	text-align: center;
+}
+
+.some-dogs {
+	font-weight: 700;
+}
+
+.dog-name-p {
+	color: #ffffff;
+	font-size: 125%;
+	padding: 0px;
+	text-align: left;
+}
+
+.dog-img {
+	border-radius: 50%;
+	border: 5px solid #048eaa;
+	height: 220px;
+	margin: 25px 0;
+	width: 220px;
+}
+
+#dog-1-img {
+	margin: 40px;
+}
+
+.dog-name-form {
+	padding: 0px 10px;
+	width: 37%;
+}
+
+.dog-name-input {
+	border: 1px solid;
+	border-radius: 3px 3px;
+	border-color: #000000;
+	display: block;
+	height: 45px;
+	margin: 10px 0px;
+	width: 100%;
+}
+
+.dog-name-button {
+	background-color: #75e2e6;
+	border-color: #75e2e6;
+	border-radius: 3px 3px;
+	color: #000000;
+	display: block;
+	font-size: 100%;
+	height: 45px;
+	margin: 10px 0px;
+	width: 100%;
+}
+
+/*Main*/
+
+main {
+	background-color: #ffffff;
+	height: 850px;
+	text-align: center;
+	width: 100%;
+}
+
+.dog-column {
+	display: inline-block;
+	height: 750px;
+	margin: 0 2%;
+	padding: 2% 0;
+	vertical-align: top;
+	width: 27%;
+}
+
+h2 {
+	font-size: 200%;
+	font-weight: none;
+	padding: 20px 0px;
+}
+
+.dog-column-h2 {
+	font-weight: 700;
+}
+
+.dog-p {
+	font-size: 115%;
+	font-weight: 600;
+	line-height: 1.3;
+	margin-bottom: 10%;
+	width: 100%;
+	text-align: left;
+	height: 225px;
+	overflow: scroll;
+}
+
+.dog-button {
+	background-color: #048eaa;
+	border-color: #048eaa;
+	border-radius: 3px 3px;
+	color: #ffffff;
+	font-size: 125%;
+	height: 45px;
+	width: 100%;
+}
+
+/*Footer*/
+
+footer {
+	background-color: #048eaa;
+	color: #ffffff;
+	font-weight: 600;
+	height: 175px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 100%;
+	font-weight: 400;
+	padding: 35px 0px;
+}
+
+.footer-social-logo {
+	height: 40px;
+	width: 40px;
+}
+
+/*Media Queries for Screen Sizes*/
+
+
+@media screen and (max-width: 680px) {
+	nav {
+		height: 85px;
+	}
+
+ 	.hamburger {
+   	 	display: block;
+  	}
+
+	nav ul {
+		display: none;
+	}
+
+	h1 {
+		width: 90%
+	}
+
+	.dog-name-form {
+		width: 70%;
+	}
+
+	main {
+		height: 2200px;
+		text-align: center;
+		width: 90%;
+	}
+
+	.dog-column {
+		display: block;
+		height: 725px;
+		margin: auto;
+		width: 75%;
+	}
+}
