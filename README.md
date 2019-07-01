@@ -29,7 +29,13 @@ Dog Party was made as an introduction to semantic HTML5 and using CSS3 to genera
 
 ## Features
 
+<<<<<<< HEAD
 - [x] First comp has responsive design
 - [x] Mobile version available for the first comp
 - [ ] Kittens
+=======
+[x] First comp has responsive design
+[x] Mobile version available for the first comp
+[] Kittens
+>>>>>>> 81fc39a769a95a74caeff8c4f7489db4941b3ef6
 
